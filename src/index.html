@@ -14,16 +14,19 @@
       <form>
         <div>
           <label for ='desplazar'>Ingrese la clave a desplazar:</label>
-          <input type='number' id='desplazar1' placeholder="solo dígitos">
+          <input type='number' id='desplazar1' placeholder="solo dígitos" min=0>
         </div>
         <div>
           <input type='text'placeholder='mensaje a cifrar'>
-          <button type='button' >cifrar</button>
+          <button type='button' id='btnCifra' >cifrar</button>
         </div>
         <div>
           <input type='text2'placeholder=resultado>
-          <button type='button2' >descifrar</button>
+          <button type='button2' id=btnDscifra>descifrar</button>
+        </div>
         <div>
+          <input type="reset" value="Limpiar">
+        </div>
       </form>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
