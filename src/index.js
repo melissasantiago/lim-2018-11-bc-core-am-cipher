@@ -13,7 +13,7 @@ btnDscifra.addEventListener('click',llamarDsfuncion);
 //Creamos la llamarFuncion xq en addEventListener solo puede haber dos parametros ya que si
 //llamamos la funcion Cifrar jalaria los parametros que ya existen en esa funcion
 function llamarFuncion() {
-text2.value =cifrar(text1.value,desplazar1.value);
+text2.value =cifrar(text1.value,parseInt(desplazar1.value));
 }
 
 function llamarDsfuncion(){
@@ -25,7 +25,6 @@ function cifrar(cifrarLe,desplaz){
   let resultado = '';
 
   for (let i = 0 ; i<cifrarLe.length ; i++){
-
    let formula = ((cifrarLe[i].charCodeAt())- 65 + desplaz ) % 26 + 65;
   let  result = String.fromCharCode(formula);
   resultado=resultado+result;
