@@ -13,16 +13,20 @@
       <p>Es por eso que TOKEN BANCARIO es la manera más segura y rápida de generar nuestro propio código cifrado.</p>
       <form>
         <div>
-          <label for ='desplazar'>Ingrese la clave a desplazar:</label>
-          <input type='number' id='desplazar1' placeholder="solo dígitos" min=0>
+          <label for ='desplazar'>Clave:</label>
+          <input type='number' id='desplazar1' placeholder="solo dígitos" min=1>
         </div>
         <div>
-          <input type='text'placeholder='mensaje a cifrar'>
+          <label for ='txtEntrada'>Mensaje:</label>
+          <input type='text' id='text1' placeholder='Ingresa el mensaje'>
+        </div>
+        <div>
           <button type='button' id='btnCifra' >cifrar</button>
+          <button type='button' id=btnDscifra>descifrar</button>
         </div>
         <div>
-          <input type='text2'placeholder=resultado>
-          <button type='button2' id=btnDscifra>descifrar</button>
+          <label for='txtSalida'>Resultado:</label>
+          <input type='text'id='text2' placeholder='resultado'>
         </div>
         <div>
           <input type="reset" value="Limpiar">
