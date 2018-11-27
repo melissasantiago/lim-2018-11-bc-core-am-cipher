@@ -13,23 +13,23 @@
       <p>Es por eso que TOKEN BANCARIO es la manera más segura y rápida de generar nuestro propio código cifrado.</p>
       <form>
         <div>
-          <label for ='desplazar'>Clave:</label>
-          <input type='number' id='desplazar1' placeholder="solo dígitos" min=1>
+          <label for ="desplazar">Clave:</label>
+          <input type="number" id="desplazar1" placeholder="solo dígitos" min="1">
+        </div>
+        <div >
+          <label for ="txtEntrada">Mensaje:</label>
+          <input type="text" id="text1" autocomplete="off" placeholder="Ingresa el mensaje">
         </div>
         <div>
-          <label for ='txtEntrada'>Mensaje:</label>
-          <input type='text' id='text1' placeholder='Ingresa el mensaje'>
+          <button type="button" id="btnCifra" >Cifrar</button>
+          <button type="button" id="btnDscifra" >Descifrar</button>
         </div>
         <div>
-          <button type='button' id='btnCifra' >cifrar</button>
-          <button type='button' id=btnDscifra>descifrar</button>
+          <label for="txtSalida">Resultado:</label>
+          <input type="text" id="text2" autocomplete="off" placeholder="resultado">
         </div>
         <div>
-          <label for='txtSalida'>Resultado:</label>
-          <input type='text'id='text2' placeholder='resultado'>
-        </div>
-        <div>
-          <input type="reset" value="Limpiar">
+          <input type="reset" id="clean" value="Limpiar">
         </div>
       </form>
     <script src="cipher.js"></script>

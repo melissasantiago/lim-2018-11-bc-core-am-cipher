@@ -4,6 +4,7 @@
  const btnCifra = document.getElementById('btnCifra');
  const btnDscifra = document.getElementById('btnDscifra');
  const text2 = document.getElementById('text2');
+ const limpiar = document.getElementById('limpiar');
 
 
  btnCifra.addEventListener('click',llamarFuncion);

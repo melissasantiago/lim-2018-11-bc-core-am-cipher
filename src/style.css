@@ -1,0 +1,83 @@
+
+
+form{
+ width:35%;
+ border:2px solid black;
+ padding:1em 3em 2em;
+ margin: 0 auto;
+ border-radius: 8px;
+ background: #13232f;
+}
+body{
+ background-image: url("https://static.vix.com/es/sites/default/files/btg/tech.batanga.com/files/Encriptar-archivos-que-es-y-como-funciona-3.jpg");
+ background-repeat: no-repeat;
+
+}
+
+
+label{
+ font-size: 18px;
+ display: block;
+ width: 100%;
+ margin-left: 36px;
+ color: white;
+ font-family: monospace;
+}
+
+input{
+ margin-bottom: 20px;
+ width: 75%;
+ padding: 10px;
+ border: 1px solid black;
+ margin-left: 36px;
+ border-radius: 8px;
+}
+input:focus{
+ border: 1px solid purple;
+}
+
+#btnCifra{
+ display: inline-block;
+ padding: 3mm 10mm;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ color: #DC143C;
+ background-color: white;
+ border: 1.5px solid #DC143C;
+ border-radius: 25px;
+ margin-left: 125px;
+}
+#btnDscifra{
+ display: inline-block;
+ padding: 3mm 7mm;
+ font-size: 16px;
+ cursor: pointer;
+ text-align: center;
+ color: white;
+ background-color: #DC143C;
+ border: none;
+ border-radius: 25px;
+}
+
+#btnCifra:hover{
+ background: ;
+}
+
+#btnDscifra:hover{
+  background: ;
+}
+
+#clean{
+ padding: 3mm 8mm;
+ font-size: 12px;
+ cursor: pointer;
+ text-align: center;
+ color: white;
+ border: none;
+ background-color: aquamarine;
+ border-radius: 25px;
+ margin-left: 185px;
+ margin-bottom: 20px;
+ width: 20%;
+}
