@@ -11,8 +11,10 @@
       <h1>Safe Money On Click </h1>
     </header>
     <section>
-   <p>Click en Cifrar si envías dinero.</p>
-   <p>Click en Descrifrar si cobras dinero.</p>
+      <div class="instrucciones">
+        <p>Click en Cifrar si envías dinero.</p>
+        <p>Click en Descrifrar si cobras dinero.</p>
+      </div>
       <form>
         <div>
           <label for ="desplazar">Clave:</label>
@@ -22,19 +24,19 @@
           <label for ="txtEntrada">Mensaje:</label>
           <input type="text" id="text1" autocomplete="off" placeholder="Ingresa el mensaje">
         </div>
-        <div>
-          <button type="button" id="btnCifra" >Cifrar</button>
-          <button type="button" id="btnDscifra" >Descifrar</button>
+        <div class="grid-container">
+          <div class="grid-item"><button type="button" id="btnCifra" >Cifrar</button></div>
+          <div class="grid-item"><button type="button" id="btnDscifra" >Descifrar</button></div>
         </div>
         <div>
           <label for="txtSalida">Resultado:</label>
           <input type="text" id="text2" autocomplete="off" placeholder="resultado">
         </div>
-        <div>
+        <div class="cleanb">
           <input type="reset" id="clean" value="Limpiar">
         </div>
       </form>
-        </section>
+    </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
