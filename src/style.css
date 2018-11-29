@@ -1,4 +1,160 @@
+h1{
+ width: 98.4%;
+ color: #2E2FE3;
+ text-align: left;
+ margin-bottom: 5px;
+ margin-top: 25px;
+ background-color: #448D76;
+ padding: 10px;
+ font-size: 50px;
+ font-family: fantasy;
+}
+p{
+ width: 20%;
+ color: #13232f;
+ background-color: #95CBBA;
+ margin-left: 500px;
+ /*padding-right: 5px;
+ padding-top: 6px;
+ padding-bottom: 6px;*/
+ font-size: 20px;
+ font-weight: bold;
+ border-radius: 8px;
+ font-family: sans-serif;
+}
 
+form{
+margin-top: 25px;
+width:35%;
+border:2px solid black;
+border-radius: 8px;
+background: #13232f;
+box-sizing: border-box;
+padding-top: 10px;
+margin-left: 410px;
+}
+
+form,p{
+ display: block;
+}
+
+body{
+margin: 0;
+background-image: url("https://imgnooz.com/sites/default/files/wallpaper/abstract/55419/dark-3d-abstract-wallpapers-55419-327353.jpg");
+}
+label{
+width: 100%;
+font-size: 18px;
+display: block;
+margin-left: 36px;
+color: white;
+font-family: monospace;
+margin-top: 20px;
+}
+
+input{
+width: 75%;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid black;
+margin-left: 36px;
+border-radius: 8px;
+}
+
+input:focus{
+border: 1px solid purple;
+}
+
+#btnCifra{
+display: inline-block;
+padding: 3mm 10mm;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+color: #DC143C;
+background-color: white;
+border: 1px solid #DC143C;
+border-radius: 25px;
+margin-left: 85px;
+font-family: monospace;
+}
+#btnDscifra{
+display: inline-block;
+padding: 3mm 7mm;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+color: white;
+background-color: #DC143C;
+border: none;
+border-radius: 85px;
+font-family: monospace;
+}
+
+#btnCifra:hover{
+background:#DC143C;
+color: white;
+}
+
+#btnDscifra:hover{
+ background: white;
+ color: #DC143C;
+}
+
+#clean{
+width: 20%;
+padding: 3mm 5mm;
+font-size: 12px;
+cursor: pointer;
+text-align: center;
+color: white;
+border: none;
+background-color: #FB8604;
+border-radius: 25px;
+margin-left: 175px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*h1{
+ color: blue;
+ text-align: center;
+
+}
 
 form{
  width:35%;
@@ -7,9 +163,10 @@ form{
  margin: 0 auto;
  border-radius: 8px;
  background: #13232f;
+ margin-left: 350px;
 }
 body{
- background-image: url("https://static.vix.com/es/sites/default/files/btg/tech.batanga.com/files/Encriptar-archivos-que-es-y-como-funciona-3.jpg");
+ background-image:
  background-repeat: no-repeat;
 
 }
@@ -81,3 +238,4 @@ input:focus{
  margin-bottom: 20px;
  width: 20%;
 }
+*/
