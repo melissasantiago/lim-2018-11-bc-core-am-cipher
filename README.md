@@ -1,4 +1,55 @@
-# Cifrado César
+# Safe Money OnClick
+
+Safe Money OnClick es una web enfocada en proteger los giros nacionales e internacionales, ya que para emitir o cobrar necesitan ingresar un mensaje de autorización creado por el emisor del giro bancario . Safe Money OnClick pide una clave la cual servirá para cifrar el mensaje de autorización y de esta manera proteger y evitar suplantaciones de cobro del dinero.
+
+![SafeMoneyOnClick](https://i.ibb.co/2MW1K9X/Safe-Money.png)
+
+- #### ¿Quiénes son los principales usuarios de producto?
+
+ SafeMoneyOnClick va dirigida a hombres y mujeres a partir  de 21 años que suelen hacer giros nacionales o internacionales, quienes necesitan generar un mensaje secreto para que su beneficiario pueda cobrar el  giro en el lugar de destino.
+
+- #### ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+ Los usuarios de esta web buscan proteger de una manera simple, rápida y segura, los mensajes que usarán sus beneficiarios para para cobrar los giros de dinero.
+
+- #### ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+
+ Se sabe que para emitir o cobrar un giro se debe ingresar un mensaje de autorización, el cual es creado por el emisor para poder cobrar el giro en el lugagr de destino. La web esta diseñada para proteger los mensajes de autorización por medio de una clave numérica la cual es creada por el emisor del giro. Esta clave sirve para cifrar el mensaje de autorización. De esta manera el emisor es el que tiene el dominio de la creación de este mensaje cifrado.Lo cual le da la seguridad de ser el único que conoce el mensaje a descifrar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -219,7 +270,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -287,4 +338,4 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 ### Parte Opcional: "Hacker edition"
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+* [ ] Permite usar un `offset` negativo.  -->
