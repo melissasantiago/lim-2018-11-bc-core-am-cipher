@@ -11,14 +11,14 @@
 
 
 function llamarFuncion(){
-text2.value =cifrar(text1.value,parseInt(desplazar1.value));
+text2.value =cifrar(parseInt(desplazar1.value),text1.value);
  }
 
  function llamarDsfuncion() {
- text2.value =dscifrar(text1.value,parseInt(desplazar1.value));
+ text2.value =dscifrar(parseInt(desplazar1.value),text1.value);
   }
 
- function cifrar(cifrarLe,desplaz){
+ function cifrar(desplaz,cifrarLe){
    let resultado = '';
 
    for (let i = 0 ; i<cifrarLe.length ; i++){
@@ -29,7 +29,7 @@ text2.value =cifrar(text1.value,parseInt(desplazar1.value));
   return resultado;
  }
 
- function dscifrar(dscifrarLe,desplaz){
+ function dscifrar(desplaz,dscifrarLe){
      let dsresultado = '';
      let newdesplaz = (desplaz%26);
      for (let i = 0; i<dscifrarLe.length; i++){
