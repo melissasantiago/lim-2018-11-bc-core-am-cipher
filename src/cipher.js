@@ -1,6 +1,6 @@
 window.cipher = {
 
-encode: (cifrarLe,desplaz)=>
+encode: (desplaz,cifrarLe)=>
   {
   let resultado = '';
 
@@ -13,7 +13,7 @@ encode: (cifrarLe,desplaz)=>
 },
 
 
-decode: (dscifrarLe,desplaz) =>
+decode: (desplaz,dscifrarLe) =>
   {
     let dsresultado = '';
     let newdesplaz = (desplaz%26);
